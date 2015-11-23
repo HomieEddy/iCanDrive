@@ -1,0 +1,60 @@
+body {
+  background: url("road_13.jpg");
+  background-size: cover;
+  color: black;
+}
+.wrapper {
+  height: 100%;
+  display: table;
+  width: 100%;
+  text-align: center;
+}
+#header {
+  display: table-row;
+  height: 1px;
+  background: #ffd34e;
+  padding-bottom: 5;
+}
+.main {
+  height: 100%;
+  display: table;
+  width: 100%;
+}
+.box {
+  display: table-cell;
+}
+.content {
+  padding: 20;
+  background-color: rgba(255, 250, 213, 0.80); 
+}
+.sidebar {
+  width: 250px;
+}
+#footer {
+  display: table-row;
+  height: 1px;
+  background: #105b63;
+  color: #fffad5;
+}
+/*====== Ignore section below ======*/
+/* Basic Style*/
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+table
+{ 
+  margin-left: auto;
+  margin-right: auto;
+}
+.inner {
+    display: inline-block;
+  text-align: left;
+}
+.rental {
+  padding: 30;
+}
